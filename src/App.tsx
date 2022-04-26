@@ -7,12 +7,12 @@ import { AuthContext } from "./auth/Auth";
 
 function App() {
   const { currentUser } = useContext(AuthContext);
-
   // console.log(currentUser);
 
   return (
     <div className="App">
       <Header />
+
       <Menu />
     </div>
   );
